@@ -1,0 +1,67 @@
+{
+  "replayMatchesLiveCounters": true,
+  "counterMismatches": {},
+  "replayMatchesCandidatesFile": true,
+  "consistencyChecks": {
+    "fee_eq_position_fee_plus_funding_ok": 27051,
+    "pnl_sign_matches_side_and_price_ok": 10558,
+    "pnl_matches_entry_exit_formula_1pct_ok": 9810,
+    "increase_position_size_ge_fill_ok": 16478,
+    "liquidation_pnl_matches_formula_ok": 759,
+    "liquidation_pnl_protocol_adjusted_info": 4
+  },
+  "consistencyFailures": [],
+  "consistencyInfo": [
+    {
+      "signature": "562XDDX6gDFTJnq282gaWopPN6PyvRLEtfa6UGzAAASxJZiSVQ3tm7sncHVe46NAZ6SYVKNrdN22vKvkLpgTAx3u",
+      "pnlDelta": 174358148,
+      "formula": 191502388,
+      "collateralUsdBefore": 187250513
+    },
+    {
+      "signature": "4dN2Vzk8rbq9omHKLUg5kfhuWtWHyGv6aQQwaSfXYbko22S6bB7onH8U5op6a8iSq7qEZbF4Q54q79FWbnR93JCJ",
+      "pnlDelta": 123065618,
+      "formula": 124776417,
+      "collateralUsdBefore": 134128605
+    },
+    {
+      "signature": "5UMZMnxWb9GPQQwRsdDiuMG2LtToneetjTbHpHq1s4F9843U5f2LSWCpxG6zZjttUzhP6Hm9UtgWxDAPg6Wbak94",
+      "pnlDelta": 32781308,
+      "formula": 37745705,
+      "collateralUsdBefore": 38235563
+    },
+    {
+      "signature": "5eD5VmFHgE1V9uvpfxDmRFcs5123Hex8wM6RGCn26D4mVDQmvgEJe69UtQTrxUiDzbDxAzpxcjgw77hFphTrn4yE",
+      "pnlDelta": 22537547,
+      "formula": 22789143,
+      "collateralUsdBefore": 24250699
+    }
+  ],
+  "boundaryVerification": {
+    "lastBlockBeforeRange": {
+      "number": 393329102,
+      "timestamp": 1768348799
+    },
+    "firstBlockAfterRange": {
+      "number": 393549073,
+      "timestamp": 1768435200
+    }
+  },
+  "boundariesOk": true,
+  "nonTradeEventsDecoded": {
+    "WithdrawFeesEvent": 480,
+    "InstantCreateTpslEvent": 8907,
+    "PoolSwapEvent": 10806,
+    "ClosePositionRequestEvent": 13036,
+    "CreatePositionRequestEvent": 2319,
+    "IncreasePositionPreSwapEvent": 255,
+    "InstantCreateLimitOrderEvent": 2243,
+    "BorrowFromCustodyEvent": 150,
+    "AddLiquidityEvent": 548,
+    "RemoveLiquidityEvent": 216,
+    "RepayToCustodyEvent": 97,
+    "DepositCollateralEvent": 96,
+    "WithdrawCollateralEvent": 42
+  },
+  "overallVerified": true
+}

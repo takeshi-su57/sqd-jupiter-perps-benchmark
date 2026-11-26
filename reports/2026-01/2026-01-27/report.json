@@ -1,0 +1,75 @@
+{
+  "status": "PASS_STRUCTURAL_ONLY",
+  "IMPORTANT": "Passing tests proves only local decode and validity in the requested SQD range, NOT complete Jupiter history or equality to independent source.",
+  "request": {
+    "source": "SQD Portal ONLY",
+    "fromSlot": 396153765,
+    "toSlot": 396368724,
+    "endpoint": "https://portal.sqd.dev/datasets/solana-mainnet/finalized-stream",
+    "queryMode": "lean",
+    "dateUTC": "2026-01-27",
+    "dateResolution": {
+      "method": "sqd-timestamp-api",
+      "firstSlot": 396153765,
+      "nextMidnightFirstSlot": 396368725,
+      "seconds": 10.796
+    }
+  },
+  "idl": {
+    "urlOrPath": "/home/work/Documents/luckyplans/SQD_Jupiter_Accuracy_Benchmark_v1.4/jupiter_sqd_benchmark/jupiter-perpetuals-idl.json",
+    "sha256": "f2d7ff5009e7696939cb2e888368967744131e6aa51dc5ea7c966cc9f29ed16c",
+    "eventsAvailable": 25
+  },
+  "stream": {
+    "lastSlot": 396368724,
+    "complete": true,
+    "httpBatches": 509,
+    "resume": null,
+    "rawBytes": 40557813,
+    "rawMiB": 38.6789,
+    "seconds": 12273.778,
+    "rawMiBPerSecond": 0.0032,
+    "retries": {
+      "http529": 724
+    },
+    "wireBytesThisSession": 21168162,
+    "decodedBytesThisSession": 40592887
+  },
+  "counts": {
+    "returnedBlocks": 35074,
+    "rawSources": 48123,
+    "decodedEmissions": 48123,
+    "crossSourceDuplicates": 0,
+    "validCandidates": 17859,
+    "validExecutedTrades": 17138,
+    "action_INCREASE": 10168,
+    "action_LIQUIDATE": 534,
+    "action_DECREASE": 7157,
+    "zeroSizePositionEvents": 721
+  },
+  "passConditions": {
+    "full_requested_range_streamed": true,
+    "at_least_one_executed_trade": true,
+    "zero_decoding_failures": true,
+    "zero_raw_encoding_failures": true,
+    "zero_unknown_anchor_cpi": true,
+    "zero_unrecognized_data_logs": true,
+    "zero_invalid_candidates": true,
+    "zero_missing_transaction_links": true,
+    "zero_missing_instruction_addresses": true,
+    "zero_missing_transaction_status": true,
+    "zero_missing_commit_status": true,
+    "zero_duplicate_source_ids": true,
+    "zero_event_multiplicity_mismatch": true
+  },
+  "referenceComparison": null,
+  "errors": [],
+  "exception": null,
+  "files": [
+    "raw.ndjson",
+    "candidates.ndjson",
+    "idl_used.json",
+    "query.json",
+    "report.json"
+  ]
+}

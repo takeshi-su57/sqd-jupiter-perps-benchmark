@@ -1,0 +1,165 @@
+{
+  "replayMatchesLiveCounters": true,
+  "counterMismatches": {},
+  "replayMatchesCandidatesFile": true,
+  "consistencyChecks": {
+    "increase_position_size_ge_fill_ok": 12582,
+    "fee_eq_position_fee_plus_funding_ok": 20332,
+    "pnl_sign_matches_side_and_price_ok": 7741,
+    "pnl_matches_entry_exit_formula_1pct_ok": 6121,
+    "liquidation_pnl_matches_formula_ok": 1291,
+    "liquidation_pnl_protocol_adjusted_info": 338
+  },
+  "consistencyFailures": [],
+  "consistencyInfo": [
+    {
+      "signature": "H4EBg6HSHDF8cMVvC2nW6aJRGNWRXuomrL74GHxioMGNM6hus4JpzEHXEUGKsFSDLo1iQV3r5Wnfiawrot4DP5J",
+      "pnlDelta": 6963503773,
+      "formula": 7072758877,
+      "collateralUsdBefore": 7063351522
+    },
+    {
+      "signature": "2eu6FRwWKUB4RvzaSdkZ3sgV4LZyUQuEe6wp8UzEUxwVfHonEy2GaLoYX3v6DnhxBF58xSdcmhUDQVSvQkNfqpms",
+      "pnlDelta": 2694566230,
+      "formula": 2723278447,
+      "collateralUsdBefore": 2841672129
+    },
+    {
+      "signature": "2cMpWxS1H9k7QefnEs1zd7kt6zUfj9tdSi6A6DX9Fe2MgsZkp2qXcc9chdpXbuzteFwGagoH31QiV2oNzACVEuFZ",
+      "pnlDelta": 18626205,
+      "formula": 19029989,
+      "collateralUsdBefore": 20020715
+    },
+    {
+      "signature": "34DdfW9NhYeahpHBEdu71qJSu5cd985V8ihtMoW3fdqo3y6RUY1h5jrZo6DtixuTCc9ZdXk8Xqa8XFGBcrcmbouN",
+      "pnlDelta": 28921185,
+      "formula": 29356780,
+      "collateralUsdBefore": 30322408
+    },
+    {
+      "signature": "3vzEqQegumyRMDbUC1pLejnkhxcEuQmYQFYRPosTh1mWWo3zvShWXMXXdgUdWgwNjMqNzg45EXh9jKX4mk4jCwx5",
+      "pnlDelta": 11912558,
+      "formula": 12251331,
+      "collateralUsdBefore": 12844224
+    },
+    {
+      "signature": "3eKhFAwmowiHyYEuZXsurf5U7amngV5dGuHQ3RsKDKKCFAea4iVuoGEy938uBAUntpKd5msFSs5kBdJwYvKZhFkD",
+      "pnlDelta": 21212434,
+      "formula": 22133796,
+      "collateralUsdBefore": 21644870
+    },
+    {
+      "signature": "5nw4bC1pjBNTGSFB2WTDceKYJTA4pfxQZAhZKvYjcD9cgC1Poc1it1Vf7TCvtCc7jBnhZDfd6Wp58ex6UpYFm7Sm",
+      "pnlDelta": 155174931,
+      "formula": 167493860,
+      "collateralUsdBefore": 160652544
+    },
+    {
+      "signature": "55dZ7htCmnCV7HuxZyrHvx5LQUQiTaVs4bSd3efCxuMDgVzFMbK45bJSmP2Eqw7y3Wf9fNnF3N2C59oUtpKJ93qL",
+      "pnlDelta": 3225851542,
+      "formula": 3545792862,
+      "collateralUsdBefore": 3343188828
+    },
+    {
+      "signature": "Qp4yDzgJcnzuVK8eNSYUCmQVzw76b11ecAfWgtCH5BCyxDq8z2LGuaDwHg7V9Ty11z8HhnfY62H1hgfttXwzLPT",
+      "pnlDelta": 41173852,
+      "formula": 48229844,
+      "collateralUsdBefore": 47200195
+    },
+    {
+      "signature": "UFxKFnN9nJMgcdikHL3NZmtt6bzRTXP26qvLdkkSJD5sxwSpMHgBiDHsxFsavtxoywiqCmxyTYqsCuSKAioxn2X",
+      "pnlDelta": 61382265499,
+      "formula": 62557594776,
+      "collateralUsdBefore": 62098568072
+    },
+    {
+      "signature": "ViU3uiuop2S6F2QsjH5iUz4rJbs7TpXWnzjTeaMjvWRngbwxud6AVJjh4KAjndqLkDUKtTXpJ657jZRHQzT8gVM",
+      "pnlDelta": 285739146,
+      "formula": 289467870,
+      "collateralUsdBefore": 290596347
+    },
+    {
+      "signature": "49pxbFCmb6UstW3vZQ6RUGTzXhNinNrtsQfR8buBCuymn7QP4PGh4nxjk5aFC5N3DaTmXEdXrUbp1TpVM6u4J8GC",
+      "pnlDelta": 3636502686,
+      "formula": 3793755763,
+      "collateralUsdBefore": 3816172766
+    },
+    {
+      "signature": "32mynEdk4DHWDocjuwpuDRHdHVZQA1vHdisLMr4G2qnGyHnYUCHHJFLt7kTrc5pHJE7YfLNvAAuswXJRiG7dz9fd",
+      "pnlDelta": 1024719198,
+      "formula": 1037028427,
+      "collateralUsdBefore": 1046961448
+    },
+    {
+      "signature": "tMwaz9DV7agiFLhMY4SbcXsyM1WMnpVS9z2h9uAoDbTSFqSmQzYH73dtKaAE25Y8qkY8J4RSEt8mZLMVf7Zr7w6",
+      "pnlDelta": 6824457679,
+      "formula": 7232106148,
+      "collateralUsdBefore": 6937573027
+    },
+    {
+      "signature": "5dXZFm6mfZz5z1JWKLZaJ2obDYx8TWL9kBQj1QssFcY6sXXLvr6CsrD4WxMM5oDD8ZDzU9X8b85JsDS11rqdMSSu",
+      "pnlDelta": 96489390,
+      "formula": 99455124,
+      "collateralUsdBefore": 98328612
+    },
+    {
+      "signature": "44cV6rJj8xEWKHJBXx8nujBiS8RJbCzG1Rxp2V1QVhtGrfwjKqqrAHK6B112KZGKp4ACwS6zm5V6id6mvLKpy6mh",
+      "pnlDelta": 11147186,
+      "formula": 11412812,
+      "collateralUsdBefore": 11604480
+    },
+    {
+      "signature": "4f2cd15k3jByYnEkgu197vpNFZPrcveL5BBbvBusoLdKqkP4ywuQPLv17sq4NhzudMbwfuQ17hhA7CoeZJqEdGYy",
+      "pnlDelta": 439364627,
+      "formula": 481212587,
+      "collateralUsdBefore": 469243342
+    },
+    {
+      "signature": "3j4iWm8fsUJpP6ZHNsbPyVye3RRfiMGwSUjCzEk4APX29GknxUyEXyubZEBdHVTWQ2o56oudr2vBYaKeNnjMXnk4",
+      "pnlDelta": 346519281,
+      "formula": 399347307,
+      "collateralUsdBefore": 358692642
+    },
+    {
+      "signature": "2SnCp2r33oY7PuKWNRBHGQkeC4u9msc4nCux5G76oLG5KRqe5C6RyoLXw4QHXeM1D9HutSjv3C1Pz3A3VYuSViPV",
+      "pnlDelta": 96341867,
+      "formula": 97363531,
+      "collateralUsdBefore": 98456816
+    },
+    {
+      "signature": "3mbd4oufkDFCcKzZUhKDsc7AzGoXXkNx21s6yrVUMSYGqdWkDjs5x6oaAsC1W5azh21BGzehkqmRgEVBJ792yxx3",
+      "pnlDelta": 412794040,
+      "formula": 433528753,
+      "collateralUsdBefore": 421450094
+    }
+  ],
+  "boundaryVerification": {
+    "lastBlockBeforeRange": {
+      "number": 394422383,
+      "timestamp": 1768780799
+    },
+    "firstBlockAfterRange": {
+      "number": 394639909,
+      "timestamp": 1768867200
+    }
+  },
+  "boundariesOk": true,
+  "nonTradeEventsDecoded": {
+    "RedeemStakeEvent": 43,
+    "WithdrawFeesEvent": 480,
+    "ClosePositionRequestEvent": 8023,
+    "PoolSwapEvent": 9497,
+    "InstantCreateLimitOrderEvent": 1570,
+    "InstantCreateTpslEvent": 5010,
+    "BorrowFromCustodyEvent": 46,
+    "AddLiquidityEvent": 1143,
+    "RemoveLiquidityEvent": 1236,
+    "CreatePositionRequestEvent": 1656,
+    "IncreasePositionPreSwapEvent": 113,
+    "WithdrawCollateralEvent": 37,
+    "RepayToCustodyEvent": 75,
+    "LiquidateBorrowPositionEvent": 1,
+    "DepositCollateralEvent": 52
+  },
+  "overallVerified": true
+}

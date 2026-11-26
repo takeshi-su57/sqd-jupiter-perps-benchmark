@@ -1,0 +1,41 @@
+{
+  "replayMatchesLiveCounters": true,
+  "counterMismatches": {},
+  "replayMatchesCandidatesFile": true,
+  "consistencyChecks": {
+    "increase_position_size_ge_fill_ok": 4570,
+    "fee_eq_position_fee_plus_funding_ok": 7177,
+    "pnl_sign_matches_side_and_price_ok": 2597,
+    "pnl_matches_entry_exit_formula_1pct_ok": 2491,
+    "liquidation_pnl_matches_formula_ok": 116
+  },
+  "consistencyFailures": [],
+  "consistencyInfo": [],
+  "boundaryVerification": {
+    "lastBlockBeforeRange": {
+      "number": 392452781,
+      "timestamp": 1768003199
+    },
+    "firstBlockAfterRange": {
+      "number": 392671259,
+      "timestamp": 1768089600
+    }
+  },
+  "boundariesOk": true,
+  "nonTradeEventsDecoded": {
+    "WithdrawFeesEvent": 480,
+    "InstantCreateLimitOrderEvent": 684,
+    "PoolSwapEvent": 3312,
+    "InstantCreateTpslEvent": 2473,
+    "ClosePositionRequestEvent": 3286,
+    "CreatePositionRequestEvent": 531,
+    "IncreasePositionPreSwapEvent": 36,
+    "RepayToCustodyEvent": 34,
+    "RemoveLiquidityEvent": 10,
+    "AddLiquidityEvent": 162,
+    "BorrowFromCustodyEvent": 43,
+    "DepositCollateralEvent": 30,
+    "WithdrawCollateralEvent": 14
+  },
+  "overallVerified": true
+}

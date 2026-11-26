@@ -1,0 +1,92 @@
+{
+  "replayMatchesLiveCounters": true,
+  "counterMismatches": {},
+  "replayMatchesCandidatesFile": true,
+  "consistencyChecks": {
+    "increase_position_size_ge_fill_ok": 10065,
+    "fee_eq_position_fee_plus_funding_ok": 15809,
+    "pnl_sign_matches_side_and_price_ok": 5701,
+    "pnl_matches_entry_exit_formula_1pct_ok": 4754,
+    "liquidation_pnl_matches_formula_ok": 982,
+    "liquidation_pnl_protocol_adjusted_info": 8
+  },
+  "consistencyFailures": [],
+  "consistencyInfo": [
+    {
+      "signature": "WTqk6WqUASwuk8Pmv4vG8qf7yXuNVegP4tEEsJqwonTSiJv69ZP5XPG9JDMdp3nQeAn3GujGua8W3x2DcKtg5FA",
+      "pnlDelta": 45784234,
+      "formula": 46819796,
+      "collateralUsdBefore": 48430385
+    },
+    {
+      "signature": "4H8r7gzUZyC2HcvQ3VeYX7jR1E9AjvXtQujsQh69ixmXPfUjr1FQSRExmhTmequxjs9X1tRR9zA9VgaRG8W2cRWt",
+      "pnlDelta": 88648724,
+      "formula": 89813649,
+      "collateralUsdBefore": 93952310
+    },
+    {
+      "signature": "5HPhjyLSrkbsHUcEc4CzrjkzYLC5g5oT9WBG1A3DNcREUhxKWM5ah88K4it2CfymvFFPu4APgqCvHpE5Sh27CPpR",
+      "pnlDelta": 63886614,
+      "formula": 64602647,
+      "collateralUsdBefore": 69016285
+    },
+    {
+      "signature": "5avCzjCTyyz5y8Urdviefzf2rmHDGjAAu3gk73tSZh5UXveQPAKS4JprAUm5CaLipRDyv8Sz48yseWjLMRnLU2ZV",
+      "pnlDelta": 25030691,
+      "formula": 25570868,
+      "collateralUsdBefore": 27509534
+    },
+    {
+      "signature": "3o4K4b5LPHFDBkiH1qn3etPSJ2zUH1QrQsm8zBUme499Jkt54S2Bn7gP9Nwy7F4gAfqbQUP3CiKjUCjnFXPV4BPp",
+      "pnlDelta": 28371833,
+      "formula": 30513304,
+      "collateralUsdBefore": 29947612
+    },
+    {
+      "signature": "4w1WpBYh4mtD4Rk6BwzA3V5js2qKFRJaKb1QggddPG73kqnyRdSapL4XagWxz2rvUCGsKcGqux7R8my3TiDMa2p",
+      "pnlDelta": 29731039,
+      "formula": 30532925,
+      "collateralUsdBefore": 31622135
+    },
+    {
+      "signature": "N3kgqATb3tboRrvFci6WSqJyt6HfT9qXy3BBFyrSPysqcnmvmL7kkRLhdX9CRBZNHYpQzsWhgxP7bGSFM54PkDh",
+      "pnlDelta": 59279422,
+      "formula": 64081697,
+      "collateralUsdBefore": 63474183
+    },
+    {
+      "signature": "55oHfkkRctVEfzF777qnVaSMxHzbKqhw9WQwfDocYScnLrds16SS26z1wFBwatUMHxrbD8UT1yiZuihozjMNBs8B",
+      "pnlDelta": 63072612,
+      "formula": 65146476,
+      "collateralUsdBefore": 66405037
+    }
+  ],
+  "boundaryVerification": {
+    "lastBlockBeforeRange": {
+      "number": 394204205,
+      "timestamp": 1768694399
+    },
+    "firstBlockAfterRange": {
+      "number": 394422384,
+      "timestamp": 1768780800
+    }
+  },
+  "boundariesOk": true,
+  "nonTradeEventsDecoded": {
+    "RedeemStakeEvent": 86,
+    "WithdrawFeesEvent": 480,
+    "ClosePositionRequestEvent": 6954,
+    "InstantCreateTpslEvent": 3317,
+    "PoolSwapEvent": 6995,
+    "BorrowFromCustodyEvent": 171,
+    "InstantCreateLimitOrderEvent": 1120,
+    "CreatePositionRequestEvent": 1496,
+    "AddLiquidityEvent": 1107,
+    "RepayToCustodyEvent": 38,
+    "IncreasePositionPreSwapEvent": 94,
+    "DepositCollateralEvent": 152,
+    "RemoveLiquidityEvent": 211,
+    "WithdrawCollateralEvent": 25
+  },
+  "overallVerified": true
+}

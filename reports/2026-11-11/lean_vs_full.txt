@@ -1,0 +1,23 @@
+Step 1/3: download 2026-11-11 with the lean+gzip query -> ./results_2026-11-11_lean (log: ./results_2026-11-11_lean.log)
+  benchmark exit code: 0 (0 = PASS)
+Step 2/3: offline replay + consistency + day-boundary checks
+SQD stream HTTP 529 at fromBlock 467914104, retry 1/10 after 10s
+SQD stream HTTP 529 at fromBlock 467914104, retry 2/10 after 10s
+SQD stream HTTP 529 at fromBlock 467914104, retry 3/10 after 10s
+SQD stream HTTP 529 at fromBlock 468316357, retry 1/10 after 10s
+  verified -> ./results_2026-11-11_lean/SUMMARY.md
+Step 3/3: compare with the v1.5 full-query reference
+                                           A: results_2026-11-11        B: results_2026-11-11_lean
+status                                      PASS_STRUCTURAL_ONLY              PASS_STRUCTURAL_ONLY
+query mode                                       full (pre-v1.6)                              lean
+slot range                                  467914168..468316356              467914168..468316356
+stream complete                                             True                              True
+raw MiB (decoded JSON)                                    121.72                             24.46
+MiB on the wire                                              n/a                             13.46
+candidates                                                 12096                             12096
+valid executed trades                                      10660                             10660
+invalid candidates                                             0                                 0
+
+IDENTICAL: all 12,096 decoded candidates match row-for-row (fields, raw integers, order).
+Transfer: B moved 13.46 MiB vs A 121.72 MiB (9.0x less).
+RESULT: PASS

@@ -1,0 +1,81 @@
+{
+  "status": "PASS_STRUCTURAL_ONLY",
+  "IMPORTANT": "Passing tests proves only local decode and validity in the requested SQD range, NOT complete Jupiter history or equality to independent source.",
+  "request": {
+    "source": "SQD Portal ONLY",
+    "fromSlot": 467914168,
+    "toSlot": 468316356,
+    "endpoint": "https://portal.sqd.dev/datasets/solana-mainnet/finalized-stream",
+    "dateUTC": "2026-11-11",
+    "dateResolution": {
+      "method": "sqd-timestamp-api",
+      "firstSlot": 467914168,
+      "nextMidnightFirstSlot": 468316357,
+      "seconds": 82.174
+    }
+  },
+  "idl": {
+    "urlOrPath": "https://raw.githubusercontent.com/monakki/jup-perps-client/main/generator/idl/jupiter-perpetuals.json",
+    "sha256": "f2d7ff5009e7696939cb2e888368967744131e6aa51dc5ea7c966cc9f29ed16c",
+    "eventsAvailable": 25
+  },
+  "stream": {
+    "lastSlot": 468316356,
+    "complete": true,
+    "httpBatches": 195,
+    "resume": {
+      "resumedFromSlot": 468214255,
+      "replayedBlocks": 35829,
+      "replayedBytes": 85721896,
+      "tornBytesDropped": 0,
+      "priorSessionSeconds": 4712.897,
+      "priorSessionHttpBatches": 383,
+      "priorSessionSource": "copied from the interrupted session report.json (backup) by hand; v1.5 records this automatically"
+    },
+    "rawBytes": 127628789,
+    "rawMiB": 121.7163,
+    "seconds": 2988.323,
+    "rawMiBPerSecond": 0.0134,
+    "retries": {
+      "http529": 222
+    }
+  },
+  "counts": {
+    "returnedBlocks": 52394,
+    "rawSources": 131615,
+    "decodedEmissions": 28829,
+    "uncommittedCpiInstructions": 53102,
+    "crossSourceDuplicates": 0,
+    "validCandidates": 12096,
+    "validExecutedTrades": 10660,
+    "action_DECREASE": 4562,
+    "action_INCREASE": 7164,
+    "zeroSizePositionEvents": 1436,
+    "action_LIQUIDATE": 370
+  },
+  "passConditions": {
+    "full_requested_range_streamed": true,
+    "at_least_one_executed_trade": true,
+    "zero_decoding_failures": true,
+    "zero_raw_encoding_failures": true,
+    "zero_unknown_anchor_cpi": true,
+    "zero_unrecognized_data_logs": true,
+    "zero_invalid_candidates": true,
+    "zero_missing_transaction_links": true,
+    "zero_missing_instruction_addresses": true,
+    "zero_missing_transaction_status": true,
+    "zero_missing_commit_status": true,
+    "zero_duplicate_source_ids": true,
+    "zero_event_multiplicity_mismatch": true
+  },
+  "referenceComparison": null,
+  "errors": [],
+  "exception": null,
+  "files": [
+    "raw.ndjson",
+    "candidates.ndjson",
+    "idl_used.json",
+    "query.json",
+    "report.json"
+  ]
+}

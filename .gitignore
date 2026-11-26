@@ -1,0 +1,24 @@
+# Fetched SQD data and run output (~3 GB for one month) - keep on disk, never commit
+data/
+results_*/
+*.superseded-*/
+logs/
+*.ndjson
+*.log
+*.report.stdout.json
+RANGE_SUMMARY_*.txt
+!reports/**/RANGE_SUMMARY_*.txt
+trades.csv
+
+# Unpacked launcher working folder and built launchers
+jupiter_sqd_benchmark/
+dist/
+runner.pid
+
+# Python / editor
+__pycache__/
+*.pyc
+*.tmp.*
+.venv/
+.vscode/
+.idea/
